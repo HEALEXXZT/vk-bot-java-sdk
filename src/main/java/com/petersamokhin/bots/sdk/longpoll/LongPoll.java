@@ -5,13 +5,10 @@ import com.petersamokhin.bots.sdk.callbacks.Callback;
 import com.petersamokhin.bots.sdk.clients.Client;
 import com.petersamokhin.bots.sdk.longpoll.responses.GetLongPollServerResponse;
 import com.petersamokhin.bots.sdk.utils.web.Connection;
-import org.apache.log4j.PropertyConfigurator;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Properties;
 
 /**
  * com.petersamokhin.bots.sdk.Main class for work with VK longpoll server
@@ -20,7 +17,7 @@ import java.util.Properties;
 public class LongPoll {
 
 
-    private static final Logger LOG = LoggerFactory.getLogger("LongPoll");
+    private static final Logger LOG = LoggerFactory.getLogger("LongPoll.class");
 
 
     private String server = null;
@@ -57,6 +54,7 @@ public class LongPoll {
      * @param client client with your access token key, more: <a href="https://vk.com/dev/access_token">link</a>
      */
     public LongPoll(Client client) {
+
         this.updatesHandler = new UpdatesHandler(client);
         this.updatesHandler.start();
         this.client = client;
