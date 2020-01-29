@@ -13,7 +13,7 @@ public class Maa {
         group = new Group(177615124, "846d83508a2860d5968796923efc11210bb5453920caf3e874a208365d232284cc1658ad845cc3b6b0092");
 
 
-        Keyboard keys = Keyboard.of(new Button("Открыть сайтик"));
+        Keyboard keys = Keyboard.of(new Button("Открыть сайтик!"));
 
 
         //keys.addButtons(new Button("MD5", ButtonColor.POSITIVE), new Button("SHA-256", ButtonColor.POSITIVE));
