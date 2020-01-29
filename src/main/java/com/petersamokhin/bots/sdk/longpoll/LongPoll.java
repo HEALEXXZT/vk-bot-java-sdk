@@ -16,7 +16,7 @@ import org.slf4j.*;
 public class LongPoll {
 
 
-    private static final Logger LOG = LoggerFactory.getLogger((Class)LongPoll.class);
+    private static final Logger LOG = LoggerFactory.getLogger(LongPoll.class);
 
 
     private String server = null;
