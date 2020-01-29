@@ -7,8 +7,7 @@ import com.petersamokhin.bots.sdk.longpoll.responses.GetLongPollServerResponse;
 import com.petersamokhin.bots.sdk.utils.web.Connection;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.slf4j.*;
 
 /**
  * com.petersamokhin.bots.sdk.Main class for work with VK longpoll server
@@ -17,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class LongPoll {
 
 
-    private static final Logger LOG = LoggerFactory.getLogger("LongPoll.class");
+    private static final Logger LOG = LoggerFactory.getLogger((Class)LongPoll.class);
 
 
     private String server = null;
