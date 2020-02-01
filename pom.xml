@@ -8,7 +8,7 @@
     <url>https://github.com/HEALEXXZT/vk-bot-java-sdk</url>
 
 
-    <groupId>com.healexxzt</groupId>
+    <groupId>ru.healexxzt</groupId>
     <artifactId>vk-bot-keyboard</artifactId>
     <version>0.0.6</version>
 
